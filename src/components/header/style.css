@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    background-color: #009ca6;
+
+}
+
+.nav {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 4rem;
+    border-radius: 1rem;
+    max-width: 1200px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.link {
+    position: relative;
+
+}
+.linklogo{
+    font-weight: 800;
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.span {
+    position: absolute;
+    top: -13px;
+    left: 10px;
+    background-color: blue;
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+border-radius: 1rem;
+}

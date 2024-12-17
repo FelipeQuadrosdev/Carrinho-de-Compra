@@ -1,0 +1,92 @@
+.article {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.container {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1080px;
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+
+}
+
+.container>img {
+    width: 10rem;
+    height: 10rem;
+   
+}
+
+.divButton {
+    display: flex;
+    gap: 5px;
+}
+
+.divButton>button {
+    padding: 2px;
+    font-weight: 400;
+    color: #01878e;
+}
+.container p{
+    font-weight: 600;
+    
+}
+
+.totalCompra {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: start;
+    padding-top: 1rem;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.totalCompra button {
+    padding: 0.5rem;
+    background-color: #01878e;
+    color: #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+    border-width: 0;
+}
+
+.totalCompra button:hover{
+    background-color: #08b8c1;
+}
+
+.carrinhovazio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+
+}
+
+.carrinhovazio>h3 {
+    font-size: 2rem;
+}
+
+.carrinhovazio>.a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #121212;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.a:hover {
+    color: aqua;
+    background-color: #121212;
+}

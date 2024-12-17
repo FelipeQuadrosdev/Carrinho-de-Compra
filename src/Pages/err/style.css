@@ -1,0 +1,26 @@
+.ErrorContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.ErrorContainer  h1{
+    font-size: 3rem;
+   padding-bottom: 1rem;
+}
+
+.ErrorContainer p {
+    font-size: 1.1rem;
+    
+}
+
+.ErrorContainer a {
+    text-decoration: none;
+    margin-left: 0.3rem;
+    background-color: brown;
+    color: #fff;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+}

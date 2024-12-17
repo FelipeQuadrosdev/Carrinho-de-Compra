@@ -1,0 +1,64 @@
+.Maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    background-color:#01878e;
+}
+
+
+.subcontainer {
+    width: 20rem;
+    height: 24rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    border: 2px solid #acd0d2;
+    background-color: #fff;
+    padding: 4rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s
+}
+
+.subcontainer:hover {
+    transform: scale(1, 1.1);
+}
+
+.subcontainer img{
+    width: 10rem;
+    height: 10rem;
+    background-color: aqua;
+}
+
+.section  a {
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: - 5rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.divbutton {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.divbutton p{
+    font-weight: 700;
+}
+
+.divbutton button {
+    cursor: pointer;
+    padding: 0.1rem;
+    background-color:#01878e;
+    border:0;
+    padding: 0.3rem;
+    border-radius: 3px;
+}
+.divbutton button:hover{
+    background-color: #13cbd5;
+}
